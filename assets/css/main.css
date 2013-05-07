@@ -1,6 +1,19 @@
 body {
-  padding-top: 140px; /* 60px */
+  padding: 10px; /* 60px */
   padding-bottom: 40px;
+}
+
+header .brand {
+  float: left;
+}
+
+header ul {
+  position: relative;
+  top: 33px;
+}
+
+#main_content .green {
+  color: green;
 }
 
 .ribbon-outer
