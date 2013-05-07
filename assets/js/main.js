@@ -25,7 +25,7 @@
     return loadPage('oui');
   });
 
-  ($('.navbar a')).on('click', function(e) {
+  ($('header a')).on('click', function(e) {
     e.preventDefault();
     return loadPage(e.target.hash.slice(1));
   });
