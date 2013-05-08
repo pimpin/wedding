@@ -1,16 +1,28 @@
 /*TODO fix main footer green color*/
 body {
-  padding: 10px; /* 60px */
+  padding: 80px; /* 60px */
   padding-bottom: 40px;
 }
 
-header .brand {
-  float: left;
+nav .brand {
+    max-height: 40px;
+    overflow: visible;
+    padding: 10px 20px 10px;
+    padding-bottom: 0;
+    float: left;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #777777;
 }
 
-header ul {
+nav ul {
+  top: 40px;
   position: relative;
-  top: 33px;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
 }
 
 #main_content .green {
