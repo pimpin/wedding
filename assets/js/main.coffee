@@ -5,10 +5,7 @@ loadPage = (page_name) ->
 highlightNavBar= (page_name) ->
 
 loadPageContent = (page_name) ->
-  changeDOM = (HtmlPage) ->
-    html_content = $.parseHTML HtmlPage
-    ($ '#main_content').html html_content
-  $.get "#{page_name}.html", changeDOM
+  ($ '#main_content').load "#{page_name}.html"
 
 
 $(document).ready () ->
@@ -17,5 +14,3 @@ $(document).ready () ->
 ($ 'nav a').on 'click', (e) ->
   e.preventDefault()
   loadPage e.target.hash[1..-1]
-
-

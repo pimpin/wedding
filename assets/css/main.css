@@ -1,4 +1,6 @@
 /*TODO fix main footer green color*/
+#hotel { display: none; }
+
 body {
   padding: 80px; /* 60px */
   padding-bottom: 40px;

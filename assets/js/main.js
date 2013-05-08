@@ -10,15 +10,7 @@
   highlightNavBar = function(page_name) {};
 
   loadPageContent = function(page_name) {
-    var changeDOM;
-
-    changeDOM = function(HtmlPage) {
-      var html_content;
-
-      html_content = $.parseHTML(HtmlPage);
-      return ($('#main_content')).html(html_content);
-    };
-    return $.get("" + page_name + ".html", changeDOM);
+    return ($('#main_content')).load("" + page_name + ".html");
   };
 
   $(document).ready(function() {
