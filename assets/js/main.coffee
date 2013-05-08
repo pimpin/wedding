@@ -14,7 +14,7 @@ loadPageContent = (page_name) ->
 $(document).ready () ->
   loadPage('oui')
 
-($ 'header a').on 'click', (e) ->
+($ 'nav a').on 'click', (e) ->
   e.preventDefault()
   loadPage e.target.hash[1..-1]
 
