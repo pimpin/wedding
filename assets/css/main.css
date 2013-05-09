@@ -1,5 +1,6 @@
 /*TODO fix main footer green color*/
-#hotel { display: none; }
+
+#hotel , #venir .form, #venir .results { display: none; }
 
 body {
   padding: 80px; /* 60px */
