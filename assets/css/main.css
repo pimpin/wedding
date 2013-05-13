@@ -62,6 +62,8 @@ text-align:center;
   width:170px;
   position:relative;
  -webkit-transform: rotate(45deg);
+ -moz-transform: rotate(45deg);
+ transform: rotate(45deg);
 }
 .ribbon-inner:before, .ribbon-inner:after {
   content: "";
