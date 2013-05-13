@@ -25,7 +25,8 @@ nav ul {
   left: 0;
   display: block;
   float: left;
-  margin: 0 10px 0 0;
+  background: rgba(177, 231, 152, 0.84);
+  border-radius: 5px;
 }
 
 #main_content .green {
