@@ -1,41 +1,65 @@
       <div class="hero-unit">
-        <h1>Nous nous dirons oui</h1>
-        <br/>
-        <p>Nous serons réunis le vendredi 13 septembre 2013 à Saint-Chamas pour célébrer
-            notre union et notre engagement. Nous comptons sur votre présence pour
-            partager notre joie.</p>
-        <p>Nous ne recevrons pas vos réponses par télégramme, et si vous souhaitez
-            nous faire part de votre venue, vous pouvez le faire en ligne <a href="#reponse">ici.</a></p>
-        <p>
-          <a class='btn clover' href="#reponse"><i class='icon-bullhorn'></i> Confirmez votre présence</a>
-        </p>
-      </div>
-      <div id='oui' class="row green">
-        <div class="span4">
-          <h2>Devant le maire</h2>
-          <p>A 15h, mairie de Saint-Chamas.
-            <br>La loi, c'est la loi !</p>
+        <div class='row'>
+        <div class='span4'>
+          <p><img src="assets/img/nous_a_erbalunga.jpg" class="img-polaroid"></p>
+        </div>
+        <div class='span6'>
+          <p class="text-center green">le vendredi 13 septembre 2013 à Saint-Chamas</p>
+          <h1 class="text-center">Nous nous dirons <br>OUI</h1>
+        </div>
+        </div>
+        <div class="row">
+          <div class='span4'>
+            <br>
+            <p> <small>Nous ne recevrons pas vos réponses par télégramme, et si vous souhaitez
+                  nous faire part de votre venue, vous pouvez le faire en ligne <a href="#reponse">ici.</a></small></p>
+            <br>
+            <p>
+              <a class='btn btn-large clover' id='responseBtn' href="#reponse"><i class='icon-bullhorn'></i>  Confirmez votre présence</a>
+            </p>
+          </div>
+          <div class='span6 green text-center'>
+            <p>devant</p>
+            <div id='oui' class="row">
+        <div class="span2">
+          <h3>Le maire,</h3>
+          <p>15h, mairie <br>de<br>Saint-Chamas,</p>
           <p>
-            <a class="btn" href="#" data-ll="43.549934,5.03437" data-spn="0.000933,0.001717" data-z="19" data-iwloc="0004dc4a90aa893f38983"><i class='icon-map-marker'></i> Voir la carte »</a>
+            <a class="btn" href="#mapModal" role="button" data-toggle="modal" data-ll="43.549934,5.03437" data-spn="0.000933,0.001717" data-z="19" data-iwloc="0004dc4a90aa893f38983"><i class='icon-map-marker'></i> Voir la carte »</a>
 
           </p>
         </div>
-        <div class="span4">
-          <h2>Devant Dieu</h2>
-          <p> A 16h, église Saint Léger de Saint-Chamas.<br>
-            Nous recevrons le sacrement du mariage.</p>
+        <div class="span2">
+          <h3>Dieu</h3>
+          <p>16h, église <br>St-Léger de Saint-Chamas,</p>
           <p>
-            <a class="btn" href="#" data-ll="43.549753,5.034726" data-spn="0.000933,0.001717" data-z="19" data-iwloc="0004dc4a97dd4ec1d00a7"><i class='icon-map-marker'></i> Voir la carte »</a>
+            <a class="btn" href="#mapModal" role="button" data-toggle="modal" data-ll="43.549753,5.034726" data-spn="0.000933,0.001717" data-z="19" data-iwloc="0004dc4a97dd4ec1d00a7"><i class='icon-map-marker'></i> Voir la carte »</a>
           </p>
         </div>
-        <div class="span4">
-        <h2>Devant vous</h2>
-        <p>Au Domaine de Sulauze à Miramas.<br>
-          Parents et amis, nous fêterons joyeusement cet évènement !
-        </p>
-        <p>
-          <a class="btn" href="#" data-ll="43.568949,5.08667" data-spn="0.238803,0.439453" data-z="11" data-iwloc="0004dc4a9f088a12b385b"><i class='icon-map-marker'></i> Voir la carte »</a>
-        </p>
+        <div class="span2">
+          <h3>et vous</h3>
+          <p>au domaine de Sulauze à Miramas.
+          </p>
+          <p>
+            <a class="btn" href="#mapModal" role="button" data-toggle="modal" data-ll="43.568949,5.08667"   data-spn="0.238803,0.439453" data-z="11" data-iwloc="0004dc4a9f088a12b385b"><i class='icon-map-marker'></i> Voir la carte »</a>
+          </p>
+        </div>
       </div>
-      <div id='map'></div>
+          </div>
+        </div>
+      </div>
+
+      <div id='mapModal'class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="mapModalLabel">Comment venir ?</h3>
+        </div>
+        <div class="modal-body">
+          <p>One fine body…</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          <button class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
       <script type="text/javascript" src="assets/js/oui.js"></script>
