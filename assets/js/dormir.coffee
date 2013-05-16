@@ -132,6 +132,3 @@ loadSleepings = (sleeping_type)->
   e.preventDefault()
   $('#sleepings').html ''
   loadSleepings e.target.hash[1..-1]
-  gglStr = $.get 'https://docs.google.com/spreadsheet/pub?key=0AjRMvhfMjF-odG0yYmNNcV96eG01cTBaWUtaVjNWMGc&single=true&gid=3&output=csv'
-  console.log gglStr
-  # ($ '#hotel').show()

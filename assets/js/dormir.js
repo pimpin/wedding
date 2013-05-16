@@ -10,14 +10,14 @@
         adress: "12 avenue de Flore, Parc de la Trigance, 13800 Istres",
         phone: "04.42.11.89.95",
         web: "http://www.hotel-topmotel.com",
-        price: "50 € la double",
+        price: "50€ la double",
         distance: "11 km",
         temps: "16 min",
         desc: "hôtel avec piscine"
       }, {
         name: "Première Classe **",
         capacity: "60 chambres",
-        adress: "Zac Du Tube Retorien, Rue R?gis Huilier, 13800 Istres",
+        adress: "Zac Du Tube Retorien, Rue Régis Huilier, 13800 Istres",
         phone: "04 42 56 38 81",
         web: "http://www.premiereclasse.com/fr/france/provence-alpes-cote-dazur/hotels-istres",
         price: "46€ la double",
@@ -59,13 +59,24 @@
     gites: [
       {
         name: "Domaine d'Embarden",
-        capacity: "6 personnes",
-        adress: "St Chamas",
-        phone: "nous contacter",
-        web: "#",
+        capacity: "4 personnes",
+        adress: "577 route de Grans 13250 St Chamas",
+        phone: "06.84.95.57.16",
+        price: "80€ la double",
+        web: "http://www.embarden.fr",
         distance: "7,5 km",
         temps: "14 mn",
-        desc: ""
+        desc: "Les chambres disponibles ne sont pas celles figurant sur le site. 2 nuits minimun."
+      }, {
+        name: "Moun Mazet",
+        capacity: "6-7 personnes",
+        adress: "Lieu dit Sulauze - D569n Le Mazet",
+        phone: "06 47 64 81 67",
+        price: "530€ les 2 nuits incluant le ménage et les petit dèj.",
+        web: "mounmazet-gite-provence.fr",
+        distance: "1 km",
+        temps: "2 mn",
+        desc: "Le plus proche de Sulauze. 2 nuits minimun... peut etre négociable (?)"
       }, {
         name: "La Bastide de Leydet",
         capacity: "2 gîtes pour 7 personnes et 1 gîte pour 3 personnes",
@@ -96,7 +107,7 @@
         price: "65€ la double avec petit déjeuner, 60€ à partir de 2 nuits",
         distance: "5 km",
         temps: "13 mn",
-        desc: "un des pieds à terre les plus proches; charmant et désuet dans un domaine viticole; propriétaire très gentil et arrangeant, n'hésitez pas !"
+        desc: "un des pieds à terre les plus proches; charmant et authentique dans un domaine viticole; propriétaire très gentil et arrangeant, n'hésitez pas !"
       }, {
         name: "Domaine des Machottes",
         capacity: "2 chambres",
@@ -109,7 +120,7 @@
         desc: ""
       }, {
         name: "Chez Nicole",
-        capacity: "1 suite de 2 chambres double ",
+        capacity: "1 suite de 2 chambres doubles",
         adress: "Avenue Maurice Berle, 13250 St Chamas",
         phone: "06.78.01.81.48",
         web: "http://51958138.fr.strato-hosting.eu/?page_id=46",
@@ -128,13 +139,9 @@
   };
 
   ($('#hostings a')).on('click', function(e) {
-    var gglStr;
-
     e.preventDefault();
     $('#sleepings').html('');
-    loadSleepings(e.target.hash.slice(1));
-    gglStr = $.get('https://docs.google.com/spreadsheet/pub?key=0AjRMvhfMjF-odG0yYmNNcV96eG01cTBaWUtaVjNWMGc&single=true&gid=3&output=csv');
-    return console.log(gglStr);
+    return loadSleepings(e.target.hash.slice(1));
   });
 
 }).call(this);

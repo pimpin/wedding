@@ -1,14 +1,11 @@
 <script id="hoteltpl" type="text/html">
   {{#.}}
     <h3><a href="{{web}}">{{name}}</a></h3>
-    <p>{{desc}}</p>
-    <p>{{capacity}}</p>
-    <p>{{price}}</p>
-    <p>{{distance}} / {{temps}}</p>
     <address>
-      <strong>{{name}}</strong><br>
       {{adress}}<br>
       <abbr title="Tel">Tel :</abbr> <a href="tel:{{phone}}">{{phone}}</a>
     </address>
+    <p>{{desc}}<br/>{{capacity}}<br/>{{price}}<br/>{{distance}} / {{temps}}</p>
+
   {{/.}}
 </script>
