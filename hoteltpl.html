@@ -1,5 +1,13 @@
 <script id="hoteltpl" type="text/html">
   {{#.}}
-    coucou{{name}}
+    <h3>{{name}}</h3>
+    <p>{{desc}}</p>
+    <p>{{capacity}}</p>
+    <address>
+      <strong>{{name}}</strong><br>
+      {{adress}}<br>
+      <abbr title="Tel">Tel :</abbr> <a href="tel:{{phone}}">{{phone}}</a>
+    </address>
   {{/.}}
 </script>
+
