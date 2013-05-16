@@ -1,6 +1,6 @@
 sleepings=
   hotels: [
-       name: "Top Motel"
+       name: "Top Grqtgrqt"
        capacity: "Bartolomeo Vanzett4"
        adress: ""
        phone:"tipster-commercial-name4.jpg"
