@@ -1,4 +1,3 @@
-
 sleepings=
   hotels: [
        name: "Top Motel"
