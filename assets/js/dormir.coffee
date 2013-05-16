@@ -10,7 +10,7 @@ sleepings=
        price: "50€ la double"
        distance: "11 km"
        temps: "16 min"
-       desc: "hôtel avec piscine"
+       desc: "Hôtel avec piscine"
      ,
        name: "Première Classe **"
        capacity: "60 chambres"
@@ -20,7 +20,7 @@ sleepings=
        price: "46€ la double"
        distance: "7 km"
        temps: "13 mn"
-       desc: "propose des chambres quadruples"
+       desc: "Propose des chambres quadruples"
      ,
        name: "Comfort Inn **"
        capacity: "20 chambres"
@@ -30,7 +30,7 @@ sleepings=
        price: "60€ la double"
        distance: "9 km"
        temps: "15 mn"
-       desc: "hôtel avec piscine"
+       desc: "Hôtel avec piscine"
     ,
        name: "Ariane ***"
        capacity: "25 chambres"
@@ -40,7 +40,7 @@ sleepings=
        price: "80€ la double"
        distance: "9 km"
        temps: "15 mn"
-       desc: "hôtel avec piscine"
+       desc: "Hôtel avec piscine"
     ,
        name: "Hotel Devem de Mirapier ***"
        capacity: "15 chambres"
@@ -71,7 +71,7 @@ sleepings=
        web: "mounmazet-gite-provence.fr"
        distance:"1 km"
        temps:"2 mn"
-       desc: "Le plus proche de Sulauze. 2 nuits minimun... peut etre négociable (?)"
+       desc: "Le plus proche de Sulauze. 2 nuits minimun... peut être négociable (?)"
     ,
        name:"La Bastide de Leydet"
        capacity:"2 gîtes pour 7 personnes et 1 gîte pour 3 personnes"
@@ -100,7 +100,7 @@ sleepings=
        price: "65€ la double avec petit déjeuner, 60€ à partir de 2 nuits"
        distance: "5 km"
        temps:"13 mn"
-       desc: "un des pieds à terre les plus proches; charmant et authentique dans un domaine viticole; propriétaire très gentil et arrangeant, n'hésitez pas !"
+       desc: "Un des pieds à terre les plus proches de Sulauze ; charmant et authentique dans un domaine viticole; propriétaire très gentil et arrangeant, n'hésitez pas !"
     ,
        name:"Domaine des Machottes"
        capacity:"2 chambres"
