@@ -1,7 +1,18 @@
-# CoffeeScript encoding: utf-8
+﻿# CoffeeScript encoding: utf-8
 
 sleepings=
   hotels: [
+       
+       name: "Le Peyreguet **"
+       capacity: "23 chambres"
+       adress: "25 Boulevard Jean Jacques Prat, 13800 Istres"
+       phone:"04.42.55.04.62"
+       web: "http://www.peyreguet.com/"
+       price: "entre 46 et 49€ la double"
+       distance: "6 km"
+       temps: "12 min"
+       desc: "Hôtel avec piscine"
+
        name: "Top motel **"
        capacity: "24 chambres"
        adress: "12 avenue de Flore, Parc de la Trigance, 13800 Istres"
@@ -25,7 +36,7 @@ sleepings=
        name: "Comfort Inn **"
        capacity: "20 chambres"
        adress: "6, rue des Taillandiers - Zone Industrielle du Tube Sud, 13800 Istres"
-       phone: "#"
+       phone: "04.42.41.12.70"
        web: "www.comfortinn.com/fr/hotel-istres-france-FR138/Hotel-Photos"
        price: "60€ la double"
        distance: "9 km"
@@ -45,30 +56,30 @@ sleepings=
        name: "Hotel Devem de Mirapier ***"
        capacity: "15 chambres"
        adress: "D 19, 13250 Cornillon-Confoux"
-       phone: "#"
+       phone: "04.90.55.99.22"
        web: "http://www.mirapier.com/Deven/Bienvenue.html"
        price: "128€ la double"
        distance: "12 km"
        temps: "22 mn"
-       desc: ""
+       desc: "un bel hôtel de charme avec piscine"
       ],
   gites: [
        name:"Domaine d'Embarden"
        capacity:"4 personnes"
        adress:"577 route de Grans 13250 St Chamas"
        phone:"06.84.95.57.16"
-       price: "80€ la double"
        web: "http://www.embarden.fr"
+       price: "80€ la double"       
        distance:"7,5 km"
        temps:"14 mn"
-       desc: "Les chambres disponibles ne sont pas celles figurant sur le site. 2 nuits minimun."
+       desc: "Les chambres disponibles ne sont pas celles figurant sur le site. 2 nuits minimun. Très belle maison de maître dans un cadre verdoyant, avec piscine."
     ,
        name:"Moun Mazet"
        capacity:"6-7 personnes"
        adress:"Lieu dit Sulauze - D569n Le Mazet"
        phone:"06 47 64 81 67"
-       price: "530€ les 2 nuits incluant le ménage et les petit dèj."
        web: "mounmazet-gite-provence.fr"
+       price: "530€ les 2 nuits incluant le ménage et les petit dèj."
        distance:"1 km"
        temps:"2 mn"
        desc: "Le plus proche de Sulauze. 2 nuits minimun... peut être négociable (?)"
@@ -78,18 +89,20 @@ sleepings=
        adress:"La Bastide de Leydet 13250 CORNILLON-CONFOUX"
        phone:"04.90.50.41.91"
        web:"http://www.gitedeprovence.net/"
+       price: "53€ la nuit pour 2 personnes"
        distance:"12 km"
        temps:"25 mn"
-       desc: ""
+       desc: "dans une ancienne bastide, charme de l'ancien garanti"
     ,
        name:"Domaine de Sulauze"
        capacity:"6 personnes"
-       adress:"Miramas"
-       phone:"nous contacter"
-       web:""
+       adress:"Chemin du vieux Sulauze, 13140 Miramas"
+       phone:"nous contacter pour ce gîte"
+       web:"http://www.domainedesulauze.com/index.php?option=com_content&view=article&id=47&Itemid=37"
+       price: "200€ le gîte pour une nuit"
        distance:"sur place!"
        temps:"sur place!"
-       desc: ""
+       desc: "seul le gîte Origine est disponible car les vendangeurs occuperont la vieille ferme"
     ],
   bnbs: [
        name:"Domaine de Lunard"
@@ -102,16 +115,6 @@ sleepings=
        temps:"13 mn"
        desc: "Un des pieds à terre les plus proches de Sulauze ; charmant et authentique dans un domaine viticole; propriétaire très gentil et arrangeant, n'hésitez pas !"
     ,
-       name:"Domaine des Machottes"
-       capacity:"2 chambres"
-       adress: "Les Crozes, 13450 GRANS"
-       phone:"04.90.55.87.98"
-       web:"http://www.gites-de-france.com/location-vacances-Grans-Chambre-d-hotes-UNE-ROMANCE-PROVENCALE-,gites84_b2013.1.13G280416.H.html/site-proprietaire"
-       price:"80 à 100€ la double avec petit déjeuner"
-       distance: "15 km"
-       temps:"22 mn"
-       desc: ""
-    ,
        name:"Chez Nicole"
        capacity: "1 suite de 2 chambres doubles"
        adress: "Avenue Maurice Berle, 13250 St Chamas"
@@ -120,9 +123,20 @@ sleepings=
        price: "66€ la double avec petit déjeuner"
        distance: "8 km"
        temps:"14 mn"
-       desc: ""
-    ]
-
+       desc: "dans une maison familiale à St Chamas, avec piscine"      
+ 
+    ,   
+       name:"Domaine des Machottes"
+       capacity:"2 chambres"
+       adress: "Les Crozes, 13450 GRANS"
+       phone:"04.90.55.87.98"
+       web:"http://www.gites-de-france.com/location-vacances-Grans-Chambre-d-hotes-UNE-ROMANCE-PROVENCALE-,gites84_b2013.1.13G280416.H.html/site-proprietaire"
+       price:"80 à 100€ la double avec petit déjeuner"
+       distance: "15 km"
+       temps:"22 mn"
+       desc: "une très belle propriété provençale, avec piscine"
+    ,
+       
 
 loadSleepings = (sleeping_type)->
   $.Mustache.load 'hoteltpl.html', ->
