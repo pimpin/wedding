@@ -2,7 +2,7 @@
 
 sleepings=
   hotels: [
-       
+
        name: "Le Peyreguet **"
        capacity: "23 chambres"
        adress: "25 Boulevard Jean Jacques Prat, 13800 Istres"
@@ -69,7 +69,7 @@ sleepings=
        adress:"577 route de Grans 13250 St Chamas"
        phone:"06.84.95.57.16"
        web: "http://www.embarden.fr"
-       price: "80€ la double"       
+       price: "80€ la double"
        distance:"7,5 km"
        temps:"14 mn"
        desc: "Les chambres disponibles ne sont pas celles figurant sur le site. 2 nuits minimun. Très belle maison de maître dans un cadre verdoyant, avec piscine."
@@ -123,9 +123,9 @@ sleepings=
        price: "66€ la double avec petit déjeuner"
        distance: "8 km"
        temps:"14 mn"
-       desc: "dans une maison familiale à St Chamas, avec piscine"      
- 
-    ,   
+       desc: "dans une maison familiale à St Chamas, avec piscine"
+
+    ,
        name:"Domaine des Machottes"
        capacity:"2 chambres"
        adress: "Les Crozes, 13450 GRANS"
@@ -135,8 +135,8 @@ sleepings=
        distance: "15 km"
        temps:"22 mn"
        desc: "une très belle propriété provençale, avec piscine"
-    ,
-       
+    ]
+
 
 loadSleepings = (sleeping_type)->
   $.Mustache.load 'hoteltpl.html', ->
