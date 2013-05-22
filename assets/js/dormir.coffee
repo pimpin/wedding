@@ -12,7 +12,7 @@ sleepings=
        distance: "6 km"
        temps: "12 min"
        desc: "Hôtel avec piscine"
-
+     ,
        name: "Top motel **"
        capacity: "24 chambres"
        adress: "12 avenue de Flore, Parc de la Trigance, 13800 Istres"
