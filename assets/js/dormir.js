@@ -20,10 +20,10 @@
         adress: "12 avenue de Flore, Parc de la Trigance, 13800 Istres",
         phone: "04.42.11.89.95",
         web: "http://www.hotel-topmotel.com",
-        price: "50€ la double",
+        price: "40€ la double",
         distance: "11 km",
         temps: "16 min",
-        desc: "Hôtel avec piscine"
+        desc: "Hôtel avec piscine. Chambres avec kitchenettes. Sur le même parking que l'hôtel Ariane. Annoncez vous de notre mariage, le tarif est négocié à 40€ la double."
       }, {
         name: "Première Classe **",
         capacity: "60 chambres",
@@ -50,10 +50,10 @@
         adress: "12 Avenue De La Flore, 13800 Istres",
         phone: "04.42.11.13.13",
         web: "www.arianehotel-istres.com",
-        price: "80€ la double",
-        distance: "9 km",
-        temps: "15 mn",
-        desc: "Hôtel avec piscine"
+        price: "70€ la double",
+        distance: "11 km",
+        temps: "16 mn",
+        desc: "Hôtel avec piscine, sur le même parking que TopMotel. Annoncez vous de notre mariage, le tarif est négocié à 70€ la double."
       }, {
         name: "Hotel Devem de Mirapier ***",
         capacity: "15 chambres",
