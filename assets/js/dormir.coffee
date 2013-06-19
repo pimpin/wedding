@@ -105,6 +105,16 @@ sleepings=
        desc: "seul le gîte Origine est disponible car les vendangeurs occuperont la vieille ferme"
     ],
   bnbs: [
+       name:"Domaine de Petite"
+       capacity:"19 chambres doubles, et des dortoirs"
+       adress: "Route de Saint-Chamas D 16, 13450 Grans"
+       phone:"04 90 55 87 74"
+       web:"http://www.domainedepetite.com/"
+       price: "Défiants toute concurrence"
+       distance: "10 km"
+       temps:"20 mn"
+       desc: "Une ambiance d'internat catholique un peu désuette qui pourrait vous rappeler de bons souvenirs. Les chambres sont spartiates mais propres dans cet établissement tenu par le Diacre Albert Biémont. La simplicité au meilleur prix das cette splendide propriété, non loin du domaine de Sulauze."
+    ,
        name:"Domaine de Lunard"
        capacity:"2 chambres"
        adress: "Chemin de Miramas à Lunard, 13140 Miramas"
