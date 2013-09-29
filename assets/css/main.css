@@ -35,3 +35,17 @@ a.clover {
   background: rgba(177, 231, 152, 0.84);
   color: green;
 }
+
+#albums_thumbs {
+  border: 2px solid #f211b3;
+  background: green;
+  padding: 2px 0 0 2px;
+  width: 324px;
+}
+
+#albums_thumbs img {
+  border-width: 0;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+

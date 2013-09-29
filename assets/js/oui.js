@@ -13,22 +13,4 @@
     return ($('#main_content')).load("" + page_name + ".html");
   };
 
-  ($('#oui a')).on('click', function(e) {
-    var gmapsArgs;
-
-    e.preventDefault();
-    gmapsArgs = e.target.dataset;
-    return $.Mustache.load('maptpl.html', function() {
-      console.log($('#mapModal'));
-      return $('#mapModal').mustache('maptpl', gmapsArgs, {
-        method: 'html'
-      });
-    });
-  });
-
-  ($('#responseBtn')).on('click', function(e) {
-    e.preventDefault();
-    return loadPage(e.target.hash.slice(1));
-  });
-
 }).call(this);
