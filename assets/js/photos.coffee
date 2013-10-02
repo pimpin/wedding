@@ -56,9 +56,15 @@ albums = [
   }
 ]
 
-loadAlbums = ()->
-  $.Mustache.load 'albumthumbtpl.html', ->
-    $('#albums_thumbs').mustache 'thumbtpl', albums
+# loadAlbums = ()->
+#   $.Mustache.load 'albumthumbtpl.html', ->
+#     $('#albums_thumbs').mustache 'thumbtpl', albums
+
+# loadSlideShow = (flickrArgs = {flickrsetid: 72157635972199015}) ->
+#   template = '<iframe align="center" width="100%" height="500" frameBorder="0" scrolling="no">Coucou {{flickrsetid}}</iframe>'
+#   # template = '<iframe align="center" src="https://www.flickr.com/slideShow/index.gne?set_id={{flickrsetid}}" width="100%" height="500" frameBorder="0" scrolling="no"></iframe>'
+#   frame = Mustache.to_html(template, flickrArgs)
+#   $('#photosModal').html(frame)
 
 
 loadPage = (page_name) ->
@@ -69,13 +75,13 @@ highlightNavBar= (page_name) ->
 
 loadPageContent = (page_name) ->
   ($ '#main_content').load "#{page_name}.html"
+        
+# ($ "a").on 'click', (e) ->
+#   console.log 'show it'
+#   e.preventDefault()
+#   flickrArgs = e.target.dataset
+  
 
-($ "a").on 'click', (e) ->
-  console.log 'show it'
-  e.preventDefault()
-  flickrArgs = e.target.dataset
-  $.Mustache.load 'carouseltpl.html', ->
-    $('#photosModal').mustache 'carouseltpl', flickrArgs , { method: 'html' }
-
-$(document).ready () ->
-  loadAlbums()
+# $(document).ready () ->
+#   # loadAlbums()
+#   $('#modal-content').on 'shown', loadSlideshow
